@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmergingBookingApiRead", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmergingBooking.Message.Consumer", "BackgroundService\EmergingBooking.Message.Consumer\EmergingBooking.Message.Consumer.csproj", "{C5812492-5F26-44B6-A8EC-8890C196E359}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MonoidSharp", "MonoidSharp", "{4036A721-0A82-424B-A96E-BFB287B8D4E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoidSharp", "MonoidSharp\MonoidSharp.csproj", "{84330C94-6BE9-4195-B6B3-07CF05963615}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,10 @@ Global
 		{C5812492-5F26-44B6-A8EC-8890C196E359}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5812492-5F26-44B6-A8EC-8890C196E359}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5812492-5F26-44B6-A8EC-8890C196E359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84330C94-6BE9-4195-B6B3-07CF05963615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84330C94-6BE9-4195-B6B3-07CF05963615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84330C94-6BE9-4195-B6B3-07CF05963615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84330C94-6BE9-4195-B6B3-07CF05963615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +111,7 @@ Global
 		{340C0205-CA8A-4544-B1D5-FF240CB13F42} = {5C2EBEB5-73EB-4E6E-B498-9C8BDF503756}
 		{FA48F16D-44F5-44EC-B77B-66F9531F872A} = {5C2EBEB5-73EB-4E6E-B498-9C8BDF503756}
 		{C5812492-5F26-44B6-A8EC-8890C196E359} = {2749990B-71EF-4C5E-B65C-126E33484363}
+		{84330C94-6BE9-4195-B6B3-07CF05963615} = {4036A721-0A82-424B-A96E-BFB287B8D4E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {07340B01-E9D9-4491-8211-CAAE8E6A1937}
